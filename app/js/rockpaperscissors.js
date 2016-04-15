@@ -29,7 +29,7 @@ function getPlayerMove(move) {
     var move;
     if (move == null) {
     	move = 'getInput()';
-    }
+    } return move;
 }
 
 function getComputerMove(move) {
@@ -40,7 +40,7 @@ function getComputerMove(move) {
     var move;
     if (move == null) {
     	move = 'randomPlay()';
-    }
+    } return move;
 }
 
 function getWinner(playerMove,computerMove) {
